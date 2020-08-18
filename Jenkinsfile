@@ -9,22 +9,22 @@ pipeline {
       }
       stage('Build') {
           steps {
-              echo "Building Application"
+              echo "build run Application"
           }
       }
       stage('Test') {
           steps {
-              echo 'Test sucessfully'
+              echo 'Test run sucessfully'
           }
       }
       stage('QA Deploy') {
           steps {
-              echo 'QA Deploy sucessfully'
+              echo 'QA Deploy run sucessfully'
           }
       }
       stage('prod Deploy') {
           steps {
-              echo 'Deployed sucessfully'
+              echo 'prod Deploy run sucessfully'
           }
       }
    }
